@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática sobre o estado dos arquivos do GitHub</title>
+    <link rel="stylesheet" href="../../src/CSS/stlyle.CSS">
+</head>
+
+<body>
+    <h1>Prática sobre o estado dos arquivos do GitHub</h1>
+
+    <h2>Parte1:Configuração desse repositório</h2>
+
+    <p>Primeiro abra a pasta onde está o arquivo no Git.<span class="aviso">Importante que se certifique que está na pasta certa!</span></p>
+
+    <p>Passo1:Criamos um repositório Git lá com o comando "git init" e agorá podemos fazer o ciclo de vida dos arquivos.</p>
+    <img src="Img/Imagem passo1.png" alt="Imagem que demonstra o uso do git init" title="Imagem que demonstra o uso do git init">
+
+    <p>Passo2:Mudamos o nome do master para main usando o comando "git branch -M main"</p>
+    <img src="Img/Imagem passo2.png" alt="Imagem que demonstra o uso do git branch -M main" title="Imagem que demonstra o uso do git branch -M main">
+
+    <p>Passo3:Lincar o Git com o repositório do GitHub usando o comando "git remote add origin (link do repositório do GitHub em https).git".Caso queira ver se funcionou use o comando "git remote -v"</p>
+    <img src="Img/Imagem passo3.png" alt="Imagem que demonstra o uso do git remote add origin https://github.com/Catbroos/Como-usar-o-Git-e-o-GitHub-.git e o git remote -v" title="Imagem que demonstra o uso do git remote add origin https://github.com/Catbroos/Como-usar-o-Git-e-o-GitHub-.git e o git remote -v">
+
+    <h2>Parte2:Fazendo o ciclo de vida dos aquivos.</h2>
+    <p class="dica">Dica use o comando "git status" para ver o status dos arquivos se ele está Untracked, Unmodified, Modified, Staged.</p>
+    <img src="Img/Imagem dica.png" alt="Imagem que demonstra o uso do git status" title="Imagem que demonstra o uso do git status">
+
+    <p>Passo4:Tranforme todos os arquivos Untracked em Staged usando o comando "git add (nome do arquivo ou .(que transforma todos os arquivos))".</p>
+    <img src="Img/Imagem passo4.png" alt="Imagem que demonstra o uso do git add ." title="Imagem que demonstra o uso do git add .">
+
+    <p>Passo5:Comite as coisas dando um "git commit -m "(Uma mensagem doque foi comitado)"".</p>
+    <img src="Img/Imagem passo5.png" alt="Imagem que demonstra o uso do git commit -m(mensagem)" title="Imagem que demonstra o uso do git commit -m(mensagem)">
+
+    <h2>Condições:</h2>
+
+    <p>Passo6:Muito provavel mente você terá que fazer alterações nos arquivos.Então sempre que fizer isso de um "git add .", "git status", "git commit -m (mensagem)" e um "git status".</p>
+    <img src="Img/Imagem passo6.png" alt="Imagem que demonstra o que fazer caso altere arquivos do projeto" title="Imagem que demonstra o que fazer caso altere arquivos do projeto">
+
+    <p>Passo7:Caso queira deletar um arquivo mandeo para a lixeira.</p>
+    <img src="Img/Imagem passo7.png" alt="Imagem que demonstra como mandar arquivos para lixeira" title="Imagem que demonstra como mandar arquivos para lixeira">
+
+    <h2>Finalização:</h2>
+    <p>Passo8:Mandando para o GitHub</p>
+    <p>Agorá estamos com tudo pronto para mandar para o GitHub mandamos o comando "git push -u origin main".</p>
+    <p>Comando</p>
+    <img src="Img/Imagem1 passo8.png" alt="Imagem que demonstra o uso do git push -u origin main" title="Imagem que demonstra o uso do git push -u origin main">
+    <p>O que pode acontecer</p>
+    <img src="Img/Imagem2 passo8.png" alt="Imagem que demonstra o uqe pode acontecer depois de dar o comando" title="Imagem que demonstra o uqe pode acontecer depois de dar o comando">
+
+    <p>Essa tela pede uma autentição de que você é realmente você.Para passar para proxima aula.</p>
+
+    <p>Outra coisa se você se perguntou porque meu Git está com o visual diferent é porque eu estava usando ele do Vs code.</p>
+
+    <a href="../../index.html">Voltar</a>
+</body>
+
+</html>

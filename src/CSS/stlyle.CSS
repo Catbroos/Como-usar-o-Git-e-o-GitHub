@@ -1,0 +1,47 @@
+h1,
+h2,
+h3 {
+    color: rgb(0, 0, 255);
+}
+
+body {
+    background-color: rgb(173, 255, 47);
+}
+
+p,
+a,
+li {
+    color: rgb(0, 0, 255);
+    font-size: 24px;
+}
+
+h1 {
+    margin: 12px;
+}
+
+a:hover {
+    color: rgb(255, 0, 255);
+}
+
+a {
+    display: block;
+    margin: 20px;
+}
+
+.link {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 60vw;
+}
+
+.aviso  {
+    color: red;
+}
+
+.dica{
+    color: green;
+}

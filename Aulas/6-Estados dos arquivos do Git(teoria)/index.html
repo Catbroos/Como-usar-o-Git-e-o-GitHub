@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teoria sobre o estado dos arquivos do GitHub</title>
+    <link rel="stylesheet" href="../../src/CSS/stlyle.CSS">
+</head>
+
+<body>
+    <h1>Teoria sobre o estado dos arquivos do GitHub</h1>
+
+    <p>Os arquivos do Git tem alguns estados</p>
+    <ul>
+        <li>Untracked: quando o arquivo ainda não é conhecido pelo git;</li>
+        <li>Tracked: é quando o arquivo já é conhecido pelo git, e ele pode ser: Unmodified, Modified, Staged:
+            <ul>
+                <li>Unmodified: arquivo já é conhecido pelo git, mas não foi modificado;</li>
+                <li>Modified: arquivo já é conhecido pelo git, mas modificado;</li>
+                <li>Staged: marcou um arquivo modificado para ir para o próximo snapshot de commit.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <p>Quando colocamos o arquivo no Git ele começa como Untracked.Quando fazemos o git add ele fica Staged.Fazemos então o git commit ele fica Unmodified e está meio que pronto, mas tem três opções do que fazer agorá.</p>
+
+    <p>1:Só simplesmente deixar ele assim até que alguém perceba algum erro.Se alguém achar algum erro fazemos um edit the file(modificação) agorá ele está no estado Modified.Desse modo fazemos um git add e ele volta a ficar Staged;</p>
+
+    <p>2:Fazer atualizações e ele ficará Modified;</p>
+
+    <p>3:Podemos também Remove the file(remover o arquivo) e ele ficará Untracked.</p>
+
+    <p>Aqui está uma imagem que exeplifica o ciclo de vida dos arquivos.</p>
+
+    <img src="../../src/Img/Tabela de estados de arquivos.jpg">
+
+    <p>Na poxima aula vou explicar eles na pratica.</p>
+
+    <a href="../../index.html">Voltar</a>
+</body>
+
+</html>
