@@ -1,17 +1,19 @@
-h1,
-h2,
-h3 {
-    color: rgb(0, 0, 255);
-}
-
 body {
     background-color: rgb(173, 255, 47);
+}
+
+h1,
+h2,
+h3,
+p,
+a,
+li {
+    color: rgb(0, 0, 255);
 }
 
 p,
 a,
 li {
-    color: rgb(0, 0, 255);
     font-size: 24px;
 }
 
@@ -38,10 +40,14 @@ img {
     max-width: 60vw;
 }
 
-.aviso  {
+.aviso {
     color: red;
 }
 
-.dica{
+.dica {
     color: hsl(120, 100%, 25%);
+}
+
+* {
+    max-width: 100vh;
 }
